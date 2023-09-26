@@ -1,0 +1,152 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Homepage"
+        android:layout_marginTop="100dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/title"/>
+
+    <LinearLayout
+        android:id="@+id/homepagelinear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/tvWelcome"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/tvWell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_below="@+id/tvWelcome"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/tvUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Username"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_below="@+id/tvWelcome"
+            android:textColor="@color/primary"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/homepagelinear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/homepagelinear1"
+        android:layout_marginLeft="40dp">
+
+        <TextView
+            android:id="@+id/tvYour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_below="@+id/tvWelcome"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" email"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_below="@+id/tvWelcome"
+            android:textColor="@color/primary"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/activated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/homepagelinear2"
+        android:layout_marginLeft="39dp">
+
+        <TextView
+            android:id="@+id/tvHasBeen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" has been activated"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_below="@+id/tvWelcome"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/homepagelinear3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/activated"
+        android:layout_marginLeft="40dp">
+
+        <TextView
+            android:id="@+id/tvYour2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_below="@+id/tvWelcome"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/tvPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" phone"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_below="@+id/tvWelcome"
+            android:textColor="@color/primary"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/tvHasBeenRegist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" has been registered"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_below="@+id/tvWelcome"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_below="@+id/tvWelcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/register_shape"/>
+
+</RelativeLayout>
